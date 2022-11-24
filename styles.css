@@ -16,6 +16,7 @@ a {
     color: black;
     display: block;
     padding:1em;
+    width: 1em;
 }
 ul {
     align-items: center;

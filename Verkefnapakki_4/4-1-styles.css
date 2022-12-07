@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+.gulur-bakgrunnur {
+    color:black;
+    background: linear-gradient(to bottom, #ffda8f 40%, #ffffff 100%);
+    margin: 0;
+
+}
+body {
+    background: linear-gradient(to bottom, #3d3dec 49%, #0d0f15 116%);
+    color: white;
+    margin: 0;
+    font-family: 'Ubuntu', serif;
+
+    
+}
+a {
+    color: yellow;
+}
+
+@media screen and (min-width: 37.5em) {
+   header {
+        max-width: 60em;
+        margin: 0 auto;
+   }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 60em;
+        margin: 0 auto;
+    }
+    footer {
+        max-width: 60em;
+        margin: 0 auto;
+    }
+}

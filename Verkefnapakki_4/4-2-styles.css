@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    color:white;
+    background: linear-gradient(to bottom, #3d3dec 49%, #0d0f15 116%);
+    margin: 0;
+    width: 100%;
+    
+}
+body {
+    background: linear-gradient(to bottom, #ffda8f 40%, #ffffff 100%);
+    color: black;
+    margin: 0;
+    font-family: 'Ubuntu', serif;
+
+    
+}
+
+@media screen and (min-width: 37.5em) {
+   header {
+        max-width: 60em;
+        margin: 0 auto;
+   }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 60em;
+        margin: 0 auto;
+    }
+    footer {
+        max-width: 60em;
+        margin: 0 auto;
+    }
+}

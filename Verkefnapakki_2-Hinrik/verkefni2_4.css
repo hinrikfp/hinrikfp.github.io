@@ -1,0 +1,50 @@
+/* Hinrik Frank */
+* {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+	 margin: 0 auto;
+	 font-family: sans-serif;
+}
+
+footer p {
+  text-align: center;
+}
+
+div{
+	width: auto;
+	margin: 5px;
+}
+
+.gulur {
+	background-color: yellow; 
+}
+.raudur {
+	background-color: red; 
+}
+.graenn {
+	background-color: lime;
+}
+.blar {
+	background-color: cyan; 
+}
+.box {
+	font-size: 1.2em;
+	height: 5em;
+	padding: 5px;
+	width: auto;
+}
+.row {
+	display: flex;
+	flex-flow: row-reverse;
+}
+.col {
+	display: flex;
+	flex-flow: column-reverse;
+}
+section {width: 100% auto ;}
+
+.row > div {
+	width: 25%;
+}

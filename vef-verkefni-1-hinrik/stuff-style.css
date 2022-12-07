@@ -1,0 +1,28 @@
+body{
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid;
+    height: 200vh;
+    padding: 10px;
+    background-color: aliceblue;
+    color:#182C39;
+
+}
+
+h1{
+ color: darkgreen;
+}
+h2{
+    color:darkred;
+
+}
+
+.quote{
+    color:darkblue;
+    font-style: bold;
+}
+.cooltext{
+    color: cyan;
+    font-size: 22px;
+    font-weight: bold;
+}
